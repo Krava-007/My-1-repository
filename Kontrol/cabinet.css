@@ -60,5 +60,7 @@ a {
     padding-left: 35px;
     color: white;
     background-color: #202846;
-
+}
+.footer {
+    margin-top: 300px;
 }

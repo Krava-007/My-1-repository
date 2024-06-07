@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background-color: #202846;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-img {
+    width: 170px;
+    height: 70px;
+    border-radius: 35px;
+    margin-right: 20%;
+}
+
+.nav-list li {
+    display: inline-block;
+    color: white;
+    border-right: 2px white solid;
+    padding: 0px 10px;
+
+}
+
+.nav-lang {
+    width: 70px;
+    height: 70px;
+    padding: 0px 10px;
+
+}
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 50px;
+    align-content: center;
+    background-color: #9c9cabd8;
+}
+
+
+.reserv {
+    display: flex;
+    height: 47px;
+    margin: 50px 100px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.select_reserv {
+    margin: 20px;
+    border: none;
+    width: 1500px;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDBDC6;
+
+    height: 300px;
+    padding: 20px;
+    margin: 50px 100px;
+}
+
+.container img {
+    width: 485px;
+    height: 244px;
+    margin-left: 20px;
+    margin-right: 10px
+}
+
+.container h3 {
+    width: 700px;
+    color: #353C57;
+    size: 36px;
+    border-bottom: 3px solid white;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.container p {
+    width: 700px;
+    height: 185px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: #EAEAEB;
+    color: #353C57;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.container a {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #202846;
+    background-color: #202846;
+    color: white;
+    border-radius: 24px;
+    size: 24px;
+    right: 30px;
+    bottom: 30px;
+}
+.reserv select {
+    text-align: center;
+    font-size: 32px;
+    color: #292A31;
+    background-color:  #E8E8E8;
+    border-bottom: 2px solid #faf5f5;
+
+}
+
+.footer p {
+    height: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    align-content: center;
+    padding-left: 35px;
+    color: white;
+    background-color: #202846;
+
+}

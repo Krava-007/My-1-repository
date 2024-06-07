@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background-color: #202846;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-img {
+    width: 170px;
+    height: 70px;
+    border-radius: 35px;
+    margin-right: 20%;
+}
+
+.nav-list li {
+    display: inline-block;
+    color: white;
+    border-right: 2px white solid;
+    padding: 0px 10px;
+
+}
+
+.nav-lang {
+    width: 70px;
+    height: 70px;
+    padding: 0px 10px;
+
+}
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 50px;
+    align-content: center;
+    background-color: #C6C6DC;
+}
+
+.house-reserv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 30px 50px;
+
+}
+
+.house-reserv-contain_1 img {
+    width: 610px;
+    height: 335px;
+
+}
+
+.content-reserv {
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    color: black;
+    background-color: #C7C7C7;
+    height: 400px;
+    width: 805px;
+    margin-bottom: 5px;
+
+}
+
+.house-reserv-contain_2 {
+    margin-left: 5px;
+}
+
+.house-reserv-contain_2 img {
+    width: 400px;
+    height: 270px;
+
+}
+.text-reserv {
+    font-size: 30px;
+    color: #353C57;
+    text-align: center;
+    
+}
+.form-reservation {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #CECED8;
+    height: 300px;
+    margin: 20px 50px;
+
+
+}
+.form-group-1 {
+    display: table-cell;   
+    padding: 20px;
+    
+}
+.form-group-1 input{
+    width: 350px;
+    /* height: 60px; */
+    font-size: 15px;
+}
+.button { 
+    width: 250px;
+    height: 60px;
+    color: #E8E8E8;
+    background-color: #202846;
+
+}
+.form-group {
+    display: inline;
+    padding: 20px;
+
+    
+}
+
+.footer p {
+    height: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    align-content: center;
+    padding-left: 35px;
+    color: white;
+    background-color: #202846;
+
+}

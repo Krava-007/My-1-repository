@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title>
+</head>
+
+<body>
+    <script>
+        
+
+        // 1. Перевірка значення x
+        let x = 0;
+        if (x != 0) {
+            console.log('Вірно');
+        } else {
+            console.log('Невірно');
+        }
+        x = 1;
+        if (x != 0) {
+            console.log('Вірно');
+        } else {
+            console.log('Невірно');
+        }
+        x = -3;
+        if (x != 0) {
+            console.log('Вірно');
+        } else {
+            console.log('Невірно');
+        }
+
+        // 2. Визначення частини години
+        let time = 6;
+        if (time >= 0 && time < 15) {
+            console.log("Перша частина год");
+        } else if (time >= 15 && time < 30) {
+            console.log("Друга частина год");
+        } else if (time >= 30 && time < 45) {
+            console.log("Третя частина год");
+        } else if (time >= 45 && time < 60) {
+            console.log("Четверта частина год");
+        } else {
+            console.log(undefined);
+        }
+
+        // 3. Оптимізація перевірки декади
+        let day = 32;
+        if (day >= 1 && day < 11) {
+            console.log("Перша декада");
+        } else if (day >= 11 && day < 21) {
+            console.log("Друга декада");
+        } else if (day >= 21 && day < 31) {
+            console.log("Третя декада");
+        } else {
+            console.log(undefined);
+        }
+
+        // 4. Використання масиву для днів тижня
+        let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        let weekday = weekdays[6]; 
+        // Субота
+        console.log(weekday);
+       
+       
+        // 5.
+        let number1 = 5;
+        let number2 = 10;
+        let largest;
+
+        if (number1 > number2) {
+        largest = number1;
+        } else {
+        largest = number2;
+        }
+
+console.log(largest); // Виведе: 10
+
+
+        // 6. Використання логічного оператора OR
+        let iks = 0;
+        iks = iks || "default";
+        console.log(iks);
+    </script>
+</body>
+
+</html>
